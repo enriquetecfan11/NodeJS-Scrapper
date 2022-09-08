@@ -60,11 +60,10 @@ async function scrapeData() {
             )
         });
 
-        // Save data in a JSON file
-        fs.writeFile('data.json', JSON.stringify(data), (err) => {
-            if (err) {
-                console.log(err);
-            }
+        // Save data for each page in data folder in JSON format
+        fs.writeFile(`./data/data${i}.json`, JSON.stringify(data), (err) => {
+            if (err) throw err;
+            console.log(`Data from page ${i} saved!`);
         });
        
     }

@@ -1,10 +1,23 @@
 {
+  "name": "nodejs-scrapper",
+  "version": "0.0.1",
+  "description": "A scrapper made with NodeJS and Puppeteer",
+  "keywords": [
+    "nodejs",
+    "scrapper",
+    "puppeteer"
+  ],
+  "repository": "https://github.com/enriquetecfan11/NodeJS-Scrapper",
+  "author": "Enrique Rodriguez Vela",
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
     "puppeteer": "^17.1.1",
-    "puppeteer-cluster": "^0.23.0",
     "request": "^2.88.2",
     "unirest": "^0.6.0"
+  },
+  "main": "index",
+  "scripts": {
+    "start": "node index.js"
   }
 }

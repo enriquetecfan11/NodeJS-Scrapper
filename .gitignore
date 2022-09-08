@@ -6,3 +6,6 @@ logs
 
 # Runtime data
 pids
+
+# Packcage Lock json
+package-lock.json
