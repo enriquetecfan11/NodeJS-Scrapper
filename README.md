@@ -14,7 +14,6 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/enriquetecfan11/nodejs-scrapper?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/enriquetecfan11/nodejs-scrapper?color=56BEB8">
 </p>
 
 <!-- Status -->
