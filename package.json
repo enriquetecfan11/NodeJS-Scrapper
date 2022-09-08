@@ -19,5 +19,6 @@
   "main": "index",
   "scripts": {
     "start": "node index.js"
-  }
+  },
+  "license": "MIT"
 }
